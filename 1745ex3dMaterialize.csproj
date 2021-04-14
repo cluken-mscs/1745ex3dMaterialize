@@ -126,8 +126,14 @@
     <Content Include="images\wsSpecCheesePage2.png" />
     <Content Include="images\wsSpecCheesePage3.png" />
     <Content Include="images\wsSpecCheesePage4.png" />
+    <Content Include="init.js" />
+    <Content Include="materialize.css" />
+    <Content Include="materialize.js" />
+    <Content Include="materialize.min.css" />
+    <Content Include="materialize.min.js" />
     <Content Include="page9Forms.html" />
     <Content Include="default.html" />
+    <Content Include="style.css" />
     <Content Include="styling.css" />
     <Content Include="coloring.css" />
     <Content Include="page2QuickPicks.css" />
