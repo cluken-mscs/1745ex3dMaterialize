@@ -1,0 +1,20 @@
+﻿body {
+}
+
+p1 {
+    color: ivory;
+}
+
+.formHeader {
+    color: ivory;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.frm1 {
+    color: white;
+}
+
+h1 {
+    background-color: rgba(255,255,255,.5);
+    color: #800000;
+}

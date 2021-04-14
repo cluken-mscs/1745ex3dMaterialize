@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Starter Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="materializeStyling.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="coloring.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+    <div class="navbar-fixed">
+        <nav class=" red darken-4" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="#" class="brand-logo">Gourmetzing!</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="page2QuickPicks.html">Quick Picks</a></li>
+                    <li><a href="page3SpecCheese.html">Specialty Cheese</a></li>
+                    <li><a href="page4Charcuterie.html">Charcuterie</a></li>
+                    <li><a href="page5CraftBeer.html">Craft Beer</a></li>
+                    <li><a href="page6HowToPair.html">How to Pair</a></li>
+                    <li><a href="page7Awards.html">Awards</a></li>
+                    <li><a href="page8History.html">History</a></li>
+                    <li><a href="page9Forms.html">Feedback</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#">Navbar Link</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="section no-pad-bot" id="index-banner">
+
+        <div class="z-depth-3">
+            <div class="jumbotron text-white"
+                 style="background-image: url(images/headerBackground2.png); background-repeat: no-repeat; background-size: cover;">
+                <div class="formHeader"><h1>Preferences, Feedback, and Contact Information</h1></div>
+            </div>
+        </div>
+        <br><br>
+
+    </div>
+
+
+    <div class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <form class="col s6">
+                    <div class="row">
+                        <div class="input-field col s3">
+                            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s3">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s3">
+                            <select>
+                                <option value="" disabled selected>State</option>
+                                <option value="1">AL</option>
+                                <option value="2">AK</option>
+                                <option value="3">AZ</option>
+                                <option value="4">AR</option>
+                                <option value="5">CA</option>
+                                <option value="6">CO</option>
+                                <option value="7">CT</option>
+                                <option value="8">DE</option>
+                                <option value="9">FL</option>
+                                <option value="10">GA</option>
+                                <option value="11">HI</option>
+                                <option value="12">ID</option>
+                                <option value="13">IL</option>
+                                <option value="14">IN</option>
+                                <option value="15">IA</option>
+                                <option value="16">KS</option>
+                                <option value="17">KY</option>
+                                <option value="18">LA</option>
+                                <option value="19">ME</option>
+                                <option value="20">MD</option>
+                                <option value="21">MA</option>
+                                <option value="22">MI</option>
+                                <option value="23">MN</option>
+                                <option value="24">MS</option>
+                                <option value="25">MO</option>
+                                <option value="26">MT</option>
+                                <option value="27">NE</option>
+                                <option value="28">NV</option>
+                                <option value="29">NH</option>
+                                <option value="30">NJ</option>
+                                <option value="31">NM</option>
+                                <option value="32">NY</option>
+                                <option value="33">NC</option>
+                                <option value="34">ND</option>
+                                <option value="35">OH</option>
+                                <option value="36">OK</option>
+                                <option value="37">OR</option>
+                                <option value="38">PA</option>
+                                <option value="39">RI</option>
+                                <option value="40">SC</option>
+                                <option value="41">SD</option>
+                                <option value="42">TN</option>
+                                <option value="43">TX</option>
+                                <option value="44">UT</option>
+                                <option value="45">VT</option>
+                                <option value="46">VA</option>
+                                <option value="47">WA</option>
+                                <option value="48">WV</option>
+                                <option value="49">WI</option>
+                                <option value="50">WY</option>
+
+
+
+
+
+
+
+
+
+                                <option value="3">AZ</option>
+                            </select>
+                            <label>State Select</label>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="address" class="validate">
+                            <label for="address">City, zip</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="phone" class="validate">
+                            <label for="phone">Phone</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s6">
+                            <div class="input-field inline">
+                                <input id="email_inline" type="email" class="validate">
+                                <label for="email_inline">Email</label>
+                                <span class="helper-text" data-error="wrong" data-success="right"></span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+
+                <div class="col s6">
+                        <h5 class="center">Contact a Specialist!</h5>
+
+                        <p class="flow-text light">Let one of our experts help you plan your event. Our cheese and charcuterie specialists know the perfect kind of quantities you will need based off of your guest list and they can match your picks to your budget!</p>
+                        <input type="text" class="datepicker">What date is this for?
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col s3">
+            <h5 class="center">Amount of People</h5>
+
+            <form action="#">
+                <p>
+
+                    <label>
+                        <input name="group1" type="radio" checked />
+                        <span>2-4</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="group1" type="radio" />
+                        <span>5-7</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="group1" type="radio" />
+                        <span>8-10</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input name="group1" type="radio" disabled="disabled" />
+                        <span>10+</span>
+                    </label>
+                </p>
+            </form>
+        </div>
+
+
+
+            <div class="col s3">
+            <h5 class="center">Preferences</h5>
+
+            <form action="#">
+                <p>
+                    <label>
+                        <input type="checkbox" checked="checked" />
+                        <span>More meat than cheese?</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in" checked="checked" />
+                        <span>More cheese than meat?</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" checked="checked" />
+                        <span>Equal amounts of cheese and meat?</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in" checked="checked" />
+                        <span>Stronger, bolder, more unique flavors?</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" checked="checked" />
+                        <span>Safer, more crowd friendly options?</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in" checked="checked" />
+                        <span>A combination of unique and safe options?</span>
+                    </label>
+                </p>
+            </form>
+        </div>
+
+
+
+
+            <div class="col s6">
+                    <h5 class="center">Any questions/comments for us?</h5>
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Questions</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Comments</label>
+                            </div>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">
+                                Submit
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </div>
+                    </form>
+                    </div>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+        M.AutoInit();
+    </script>
+
+</body>
+</html>
